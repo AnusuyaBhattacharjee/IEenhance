@@ -7,4 +7,4 @@ Stop-Process -Name Explorer
 Write-Host "IE Enhanced Security Configuration (ESC) has been disabled." -ForegroundColor Green
 }
 Disable-IEESC
-Install-WindowsFeature -Name Web-Server -IncludeManagementTools
+#####Install-WindowsFeature -Name Web-Server -IncludeManagementTools######
